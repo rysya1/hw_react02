@@ -1,0 +1,9 @@
+.MainCl{
+    margin-top: 10px;
+    font-family: sans-serif;
+    background-color: rgb(8, 78, 8);
+    width: 210px;
+    height: 340px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
