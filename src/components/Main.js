@@ -1,15 +1,19 @@
-import Age from "./Age"
-import Image from "./Image"
-import Names from "./Names"
+
 import "./Main.css"
 function Main(props){
     return(
         <div className="MainCl">
-            <Image image={props.image}/> 
+            <div className="divImg">
+                <img src={props.image} alt=""/>
+            </div> 
             <hr></hr>
-            <Age age={props.age}/> 
+            <div >
+                <div className='age'>{props.age}</div>
+            </div>
             <hr></hr>
-            <Names name={props.name}/>
+            <div>
+                <div className='name'>{props.name}</div>
+            </div>
         </div>
     )
 }

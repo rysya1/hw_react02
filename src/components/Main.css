@@ -1,3 +1,7 @@
+.name{
+    font-size: 40px;
+    color: rgb(34, 190, 55);
+} 
 .MainCl{
     margin-top: 10px;
     font-family: sans-serif;
@@ -6,4 +10,16 @@
     height: 340px;
     border-radius: 10px;
     margin-left: 100px;
+}
+.divImg img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.divImg{
+    padding-top: 5px;
+}
+ .age{
+    font-size: 30px;
+    color: rgb(34, 190, 55);
 }
